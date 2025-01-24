@@ -51,9 +51,8 @@ class _UpdateProfileState extends State<UpdateProfile> {
 
   // ImageKit upload function (same as before)
   Future<String?> uploadFileToImageKit(File file, String fileName) async {
-    const String imageKitUrl = "https://upload.imagekit.io/api/v1/files/upload";
-    const String publicApiKey =
-        "private_54sywIDgv2WQFF01+kWU5HIRkpc="; // Replace with your key.
+    const String imageKitUrl = "";
+    const String publicApiKey = ""; // Replace with your key.
 
     try {
       final request = http.MultipartRequest("POST", Uri.parse(imageKitUrl));
